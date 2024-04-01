@@ -22,8 +22,8 @@
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
-  --body-color: hsl(var(--second-hue), 48%, 8%);
-  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --body-color:#0f0529;
+  --container-color: #4a2574;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -109,6 +109,11 @@ button {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.skills-img{
+  width: 300px;
+  height: 40px;
 }
 
 /*=============== THEME ===============*/
